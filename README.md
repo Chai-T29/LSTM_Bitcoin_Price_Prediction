@@ -22,12 +22,12 @@ pip install numpy pandas matplotlib scikit-learn tensorflow talib requests
 
 ### Workflow
 
-1.	Data Retrieval: We’ll fetch historical Bitcoin data from CryptoCompare’s API. It's completely free and there's a link in the notebook to get your own key!
-2.	Data Preprocessing: We’ll add technical indicators to our data, scale it properly, and prepare it for the LSTM model.
-3.	Model Building: Together, we’ll define and train an LSTM model with carefully selected layers and dropout to prevent overfitting.
-4.	Model Evaluation: We’ll assess our model’s performance using RMSE and MAPE to see how well our predictions match the actual prices.
-5.	Cross-Validation: To ensure our model is robust, we’ll implement 5-fold cross-validation and rolling origin cross-validation.
-6.	Visualization: Finally, we’ll visualize the actual vs predicted prices to see our model in action!
+1. Data Retrieval: We’ll fetch historical Bitcoin data from CryptoCompare’s API. It's completely free and there's a link in the notebook to get your own key!
+2. Data Preprocessing: We’ll add technical indicators to our data, scale it properly, and prepare it for the LSTM model.
+3. Model Building: Together, we’ll define and train an LSTM model with carefully selected layers and dropout to prevent overfitting.
+4. Model Evaluation: We’ll assess our model’s performance using RMSE and MAPE to see how well our predictions match the actual prices.
+5. Cross-Validation: To ensure our model is robust, we’ll implement 5-fold cross-validation and rolling origin cross-validation.
+6. Visualization: Finally, we’ll visualize the actual vs predicted prices to see our model in action!
 
 ### Conclusion
 
